@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:09/10/2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,131 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```book.html
 
+<html>
+     <head>
+           <meta name="viewport"
+           content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" type="text/css" href="style.css">
+            
+           
+            <title>Ajay Karthick = 25018493</title>
+     </head>
+         <body >
+            <div class="bookpage">
+                 <div class="Novel">
+                      NOVEL
+                 </div>
+                 <div class="hrstyle">
+                      <hr style="color: yellow;">
+                 </div>
+                 <div class="booktitle">
+                      <h1>The Secret Garden</h1></div>
+
+                 <div class="subtitle">
+                             Where Magic Grows
+                 </div>
+                 <div class="mypic">
+                      <img src="mypic.png" width="125" height="140" alt="">
+                 </div>
+                 
+                 <div class="id">
+                      <hr style="color: rgb(5, 5, 69);">
+                 </div>
+                 <div class="author">
+                       <p><b>Frances Hodgson Burnett'</b></p>
+                 </div>
+
+                 <div class="ed">
+                      <b>Limited Edition</b>
+                 </div>
+             </div>
+          </body>
+       </html>
+
+       css.html
+
+      .bookpage{
+               width: 400px;
+               height: 600px;
+               color: white;
+               margin-left: auto;
+               margin-right: auto;
+               padding: 20px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow',Arial, sans-serif;
+               background-image: url(cover.png);
+               background-size: cover;
+           }
+
+
+           .insight{
+                color: white;
+
+           }
+
+
+           .hrstyle{
+                width: 100px
+           }
+           .author{
+
+               display: inline;
+               position: relative;
+               color: rgb(255, 255, 255);
+               top: 300px;
+              
+
+               font-family:Georgia;
+               font-size: bold;
+            }
+            .booktitle{
+                font-family: 'Courier New', Courier,monospace;
+                font-size: larger;
+                text-align: center;
+                position: relative;
+                top: 30px;
+
+            }
+            .id {
+                width:400px;
+                position:relative;
+                top:300px;
+
+            }
+            .pub{
+                font-size: medium;
+                position: relative;
+                top:270px;
+                left:330px;
+            }
+            .ed{
+                color: white;
+                font-size: medium;
+                font-family: Verdana;
+                position:relative;
+                top:200px;
+            
+            }
+            .subtitle{
+                font-family: Tahoma;
+                font-size: large;
+                position: relative;
+                left: 50px;
+                top:10px;
+            }
+            .mypic{
+                 position: relative;
+                 top: 250px;
+                 left: 260px;
+                 width: 100px;
+                 height: 100px;
+                 background-size: cover;
+             }
+```
 
 ## OUTPUT:
+<img width="1919" height="950" alt="Screenshot 2025-10-08 140133 (1)" src="https://github.com/user-attachments/assets/868792f5-d73e-43c5-87c8-3384a7b1271f" />
 
 
 ## RESULT:
